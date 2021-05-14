@@ -105,6 +105,7 @@ const App = () => {
         style={styles.input}
         placeholder='mm/dd/yyy'
         date={date}
+        status ='warning'
         onSelect={nextDate => setDate(nextDate)}
         accessoryRight={CalendarIcon}
       />
